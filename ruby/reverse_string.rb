@@ -43,6 +43,10 @@ if __FILE__ == $PROGRAM_NAME
   puts
   puts "Expecting: 'b'"
   puts "=>", reverse_string2('b')
+
+  puts
+  puts "Expecting: 'Chris'"
+  puts "=>", reverse_string2(reverse_string2('Chris'))
 end
 
 # Please add your pseudocode to this file
